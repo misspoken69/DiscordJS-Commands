@@ -36,3 +36,5 @@ client.on('message', async message => {
         setInterval(pfp, 3000) // Defines Interval & Sets Milliseconds
     }
 })
+
+client.login('TOKEN')
