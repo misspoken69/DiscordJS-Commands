@@ -9,3 +9,5 @@ An ongoing storage for Discord.JS v12 commands for beginners.
 ## Important
 - Don't skid this, but if you do, don't remove credits or else you'll have law issues. :)
 - Don't just fork this, leave a star too. :D
+------
+✗ on top
