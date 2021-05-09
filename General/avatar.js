@@ -1,3 +1,14 @@
+// Dependencies
+const Discord = require('discord.js');
+const pretty = require('pretty-ms');
+const prefix = '!'
+
+// Ready
+client.on('ready', async () => {
+    console.log('Bot is online!')
+})
+
+// Start
 client.on('message', message => {
   if (message.content.toLowerCase().startsWith(prefix + 'avatar')) {
       const member = message.mentions.users.first() || message.author
@@ -23,3 +34,5 @@ client.on('message', message => {
       message.channel.send(embed)
   }
 })
+
+client.login('TOKEN')
